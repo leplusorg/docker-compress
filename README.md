@@ -26,7 +26,7 @@ type foo.txt | docker run --rm -i --net=none leplusorg/compress gzip -c - > foo.
 
 ## Example using the filesystem
 
-Same thing, assuming that you have a MP3 `foo.txt` in your current working directory that you want to compress:
+Same thing, assuming that you have a file `foo.txt` in your current working directory that you want to compress:
 
 **Mac/Linux**
 
