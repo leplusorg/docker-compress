@@ -1,6 +1,6 @@
 # Compress
 
-Docker container to compress/decompress data (zip, gzip, 7zip, bzip2...).
+Docker container to compress/decompress data (ZIP, gzip, 7zip, bzip2...).
 
 [![Dockerfile](https://img.shields.io/badge/GitHub-Dockerfile-blue)](https://github.com/leplusorg/docker-compress/blob/main/compress/Dockerfile)
 [![Docker Build](https://github.com/leplusorg/docker-compress/workflows/Docker/badge.svg)](https://github.com/leplusorg/docker-compress/actions?query=workflow:"Docker")
