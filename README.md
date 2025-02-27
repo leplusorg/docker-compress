@@ -7,6 +7,8 @@ Docker container to compress/decompress data (ZIP, gzip, 7zip, bzip2...).
 [![Docker Stars](https://img.shields.io/docker/stars/leplusorg/compress)](https://hub.docker.com/r/leplusorg/compress)
 [![Docker Pulls](https://img.shields.io/docker/pulls/leplusorg/compress)](https://hub.docker.com/r/leplusorg/compress)
 [![Docker Version](https://img.shields.io/docker/v/leplusorg/compress?sort=semver)](https://hub.docker.com/r/leplusorg/compress)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10082/badge)](https://bestpractices.coreinfrastructure.org/projects/10082)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/leplusorg/docker-compress/badge)](https://securityscorecards.dev/viewer/?uri=github.com/leplusorg/docker-compress)
 
 ## Example without using the filesystem
 
