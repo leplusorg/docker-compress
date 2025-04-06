@@ -22,7 +22,7 @@ RUN apk -U upgrade \
     lz4=1.10.0-r0 \
     py3-pip=24.3.1-r0 \
     python3=3.12.9-r0 \
-    xz=5.6.3-r0 \
+    xz=5.6.3-r1 \
     zip=3.0-r13 \
     zstd=1.5.6-r2 \
     zutils=1.13-r0 \
