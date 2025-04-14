@@ -21,7 +21,7 @@ RUN apk -U upgrade \
     lrzip=0.651-r1 \
     lz4=1.10.0-r0 \
     py3-pip=24.3.1-r0 \
-    python3=3.12.9-r0 \
+    python3=3.12.10-r0 \
     xz=5.6.3-r1 \
     zip=3.0-r13 \
     zstd=1.5.6-r2 \
