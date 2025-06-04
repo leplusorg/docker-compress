@@ -14,17 +14,17 @@ SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 # hadolint ignore=DL3019
 RUN apk -U upgrade \
     && apk add \
-    7zip=24.08-r0 \
+    7zip=24.09-r0 \
     bzip2=1.0.8-r6 \
-    gzip=1.13-r0 \
+    gzip=1.14-r1 \
     liblzf=3.6-r1 \
     lrzip=0.651-r1 \
     lz4=1.10.0-r0 \
-    py3-pip=24.3.1-r0 \
+    py3-pip=25.1.1-r0 \
     python3=3.12.10-r1 \
-    xz=5.6.3-r1 \
+    xz=5.8.1-r0 \
     zip=3.0-r13 \
-    zstd=1.5.6-r2 \
+    zstd=1.5.7-r0 \
     zutils=1.13-r0 \
     && if apk -u list | grep -q -e . ; then \
       apk -u list ; \
