@@ -18,7 +18,7 @@ RUN apk -U upgrade \
     bzip2=1.0.8-r6 \
     coreutils=9.7-r1 \
     curl=8.14.1-r1 \
-    git=2.49.0-r0 \
+    git=2.49.1-r0 \
     gzip=1.14-r1 \
     liblzf=3.6-r1 \
     lrzip=0.651-r1 \
