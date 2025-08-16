@@ -4,4 +4,26 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: "sh -c '[ $$(id -u) -eq 1000 ] && gzip --version'"
+    command: |
+      sh -c '
+        set -euo pipefail
+        if [ $(id -u) -ne 1000 ]; then
+          exit 1
+        fi
+        base64 --version # coreutils
+        bzip2 --help # bzip2
+        curl --version # curl
+        git --version # git
+        gzip --version
+        gzip --version # gzip
+        lrzip --version # lrzip
+        lz4 --version # lz4
+        lzf --help # liblzf
+        pip --version # py3-pip
+        python --version # python3
+        tar --version # tar
+        xz --version # xz
+        zip -h # zip
+        zstd --version # zstd
+        zutils-zcat --version # zutils
+      '
