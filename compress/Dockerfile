@@ -30,8 +30,7 @@ RUN apk -U upgrade \
     zip=3.0-r13 \
     zstd=1.5.7-r0 \
     zutils=1.13-r0 \
-    && if apk -u list | grep -q -e . ; then \
-      apk -u list ; \
+    && if apk -u list | tee -a /dev/stderr | grep -q -e . ; then \
       exit 1 ; \
     fi \
     && apk cache clean \
