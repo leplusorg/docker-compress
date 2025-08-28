@@ -12,8 +12,8 @@ ARG USER_GECOS=Default
 SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
 # hadolint ignore=DL3019
-RUN apk -U upgrade \
-    && apk add \
+RUN apk upgrade --no-cache \
+    && apk add --no-cache \
     7zip=24.09-r0 \
     bzip2=1.0.8-r6 \
     coreutils=9.7-r1 \
@@ -30,7 +30,7 @@ RUN apk -U upgrade \
     zip=3.0-r13 \
     zstd=1.5.7-r0 \
     zutils=1.13-r0 \
-    && apk cache clean \
+    && apk cache --no-cache clean \
     && rm -rf /var/cache/apk/*
 
 RUN adduser \
