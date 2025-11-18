@@ -61,6 +61,15 @@ docker buildx imagetools inspect leplusorg/compress --format '{{ json (index .SB
 
 Replace `linux/amd64` by the desired platform (`linux/amd64`, `linux/arm64` etc.).
 
+## Provenance
+
+To get the provenance for the latest image (in JSON format), use the
+following command:
+
+```bash
+docker buildx imagetools inspect leplusorg/compress --format '{{ json .Provenance }}'
+```
+
 ## Sigstore
 
 [Sigstore](https://docs.sigstore.dev) is trying to improve supply
