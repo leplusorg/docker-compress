@@ -25,7 +25,7 @@ RUN apk upgrade --no-cache \
     py3-pip=25.1.1-r1 \
     python3=3.12.12-r0 \
     tar=1.35-r4 \
-    xz=5.8.1-r0 \
+    xz=5.8.2-r0 \
     zip=3.0-r13 \
     zstd=1.5.7-r2 \
     zutils=1.15-r0 \
