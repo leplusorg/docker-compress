@@ -23,7 +23,7 @@ RUN apk upgrade --no-cache \
     lrzip=0.651-r1 \
     lz4=1.10.0-r0 \
     py3-pip=25.1.1-r1 \
-    python3=3.12.12-r0 \
+    python3=3.12.13-r0 \
     tar=1.35-r4 \
     xz=5.8.2-r0 \
     zip=3.0-r13 \
