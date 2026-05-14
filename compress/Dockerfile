@@ -20,7 +20,7 @@ RUN apk upgrade --no-cache \
     git=2.52.0-r0 \
     gzip=1.14-r2 \
     liblzf=3.6-r1 \
-    lrzip=0.651-r1 \
+    lrzip=0.660-r0 \
     lz4=1.10.0-r0 \
     py3-pip=25.1.1-r1 \
     python3=3.12.13-r0 \
