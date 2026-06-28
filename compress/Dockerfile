@@ -13,7 +13,7 @@ SHELL ["/bin/ash", "-euo", "pipefail", "-c"]
 
 RUN apk upgrade --no-cache \
     && apk add --no-cache \
-    7zip=26.00-r0 \
+    7zip=26.01-r0 \
     bzip2=1.0.8-r6 \
     coreutils=9.11-r0 \
     curl=8.20.0-r1 \
